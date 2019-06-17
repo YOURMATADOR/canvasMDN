@@ -135,7 +135,7 @@ console.log(canvas.getContext);
     context.lineWidth = 1;
     context.clearRect(600, 600, 60, 60);
     context.setLineDash([4, 9]);
-    context.lineDashOffset = -posicionLinea;
+    context.lineDashOffset = +posicionLinea;
     context.strokeRect(600, 600, 60, 60);
   };
   const moverLinea = () => {
